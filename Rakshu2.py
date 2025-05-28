@@ -1,4 +1,3 @@
-lis=['asd','res','rest','r']
-lis.sort(reverse=len(lis))
+lis = ['asd', 'res', 'rest', 'r']
+lis.sort(key=len, reverse=True)
 print(lis)
-
